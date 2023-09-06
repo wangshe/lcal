@@ -7,12 +7,19 @@
 
 ## 安装
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+
 source ~/.profile
+
 nvm ls-remote
+
 nvm install 4.8.2
+
 git clone 
+
 https://github.com/wangshe/lcal
+
 cd lcal
+
 $ npm install lcal -g
 ```
 
