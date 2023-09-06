@@ -1,13 +1,18 @@
 
 # 农历事件生成器
 
-lunar-calendar 可以自动生成按农历重复的事件，并导出 iCal 文件。
+可以自动生成按农历重复的事件，并导出 iCal 文件。
 
 ![snapshot](./snapshot.png)
 
 ## 安装
-
-```
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+source ~/.profile
+nvm ls-remote
+nvm install 4.8.2
+git clone 
+https://github.com/wangshe/lcal
+cd lcal
 $ npm install lcal -g
 ```
 
@@ -28,5 +33,3 @@ data.md:
 导入到 Google Calendar 或 Mac Calendar.app 等即可。
 
 ## 导入
-
-* [参考文档](https://github.com/hotoo/lcal/wiki#%E5%AF%BC%E5%85%A5)
